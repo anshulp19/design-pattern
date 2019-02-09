@@ -1,0 +1,6 @@
+Command design pattern is used to implement loose coupling in a request-response model.
+
+The invoker is decoupled from the action performed by the receiver.
+The invoker has no knowledge of the receiver. The invoker invokes a command,
+and the command executes the appropriate action of the receiver. Thus, the invoker can invoke commands without
+knowing the details of the action to be performed.
